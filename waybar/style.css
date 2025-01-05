@@ -3,7 +3,9 @@
 @define-color select    #ffffff;
 
 * {
-    font-family: FontAwesome, JetBrains Mono Nerd Font;
+    /* font-family: FontAwesome, JetBrains Mono Nerd Font; */
+    font-family: FontAwesome, FiraCode Nerd Font Mono;
+
     font-size: 18px;
 }
 

@@ -10,6 +10,8 @@ set $browser firefox
 set $filemanager nemo
 set $mess ayugram-desktop
 
+# Font
+font FiraCode Nerd Font Mono 12px
 
 # Sound 
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -21,7 +23,9 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 
 ### Output configuration
-output * bg /home/splatdem/Pictures/walls/void2.png fill
+# output * bg /home/splatdem/Pictures/walls/void2.png fill 
+# output * bg /home/splatdem/Pictures/walls/meme1.png fill
+output * bg /home/splatdem/Pictures/walls/17_BAW.png fill
 
 output HDMI-A-1 {
    mode 1920x1080@143.998Hz
@@ -86,6 +90,7 @@ gaps outer 10
     bindsym $mod+Right focus right
 
     # Move the focused window with the same, but add Shift
+    set $move_step 5000
     bindsym $mod+Shift+$left move left
     bindsym $mod+Shift+$down move down
     bindsym $mod+Shift+$up move up

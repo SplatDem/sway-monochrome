@@ -6,7 +6,8 @@
         "sway/workspaces",
     ],
     "modules-right": [
-        "cpu",
+        "sway/language",
+        "cpu"
     ],
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
