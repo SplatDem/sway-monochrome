@@ -1,0 +1,23 @@
+{
+    "layer": "left",
+    "position": "left",
+    "spacing": 10,
+    "modules-left": [
+        "sway/workspaces",
+    ],
+    "modules-right": [
+        "sway/language",
+        "cpu",
+        "clock"
+    ],
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "sway/workspaces": {
+        "all-outputs": true
+    },
+    "cpu": {
+        "format": "{usage}%",
+        "tooltip": true
+    },
+}
